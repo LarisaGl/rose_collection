@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'LeksaPro';
+  src: url('fonts/leksapro-lightitalic.ttf');
+}
+
+@font-face {
+  font-family: 'Circe ExtraLight';
+  src: url('fonts/CRC25.otf');
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('fonts/GothaProReg.otf');
+}
+
+@font-face {
+  font-family: 'Circe-Regular';
+  src: url('fonts/10710.ttf');
+}
+
+body {
+  width: 1920px;
+  height:100%;
+}
+
+.header {
+  background: url(img/banner.jpg) no-repeat #fff;
+  background-size:cover;
+  padding-bottom: 248px;
+  padding-top: 300px;
+}
+
+h1 {
+  font-family: 'LeksaPro';
+  font-weight: 300;
+}
+
+h1, h2 {
+  text-align: center;
+  color:#fff;
+  font-size: 80px;
+}
+
+h2 {
+  margin-top: -70px;
+  font-family: 'Circe ExtraLight';
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {  
+  text-align: center;
+  background-color: #fff;
+  display: block;
+  width: 170px;
+  height: 44px;
+  margin: auto;
+  line-height: 44px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Gotham Pro';
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Circe ExtraLight';
+  padding-top: 65px;
+}
+
+.choice {
+  padding-right: 111px;
+  padding-left: 111px;
+}
+
+.size div {
+  display: inline-block;
+  width: 33%;
+}
+
+h4 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Circe-Regular';
+  font-weight: 300;
+}
+
+.choice p {
+  font-size: 15px;
+  display: inline-block;
+  padding-right: 20px;
+  font-family: 'Circe-Regular';
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.img {
+  display:inline-block;
+   width: 66%;
+   margin-top: 50px;
+}
+
+.top {
+  padding-bottom: 75px;
+  object-fit: cover;
+}
+
+p.dresses {
+  color: #fff;
+  font-size: 65px;
+  text-align: left;
+  font-family: 'LeksaPro';
+}
+
+p.vintage {
+  color: #fff;
+  font-size: 65px;
+  text-align: left;
+  font-family: 'Circe ExtraLight';
+  margin-bottom: 400px;
+}
+
+.button .read {
+  text-align: center;
+  font-size: 14px;
+}
+
+.appointment {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline;
+  font-family: 'Circe-Regular';
+}
+
+div .quote {
+  text-align: center;
+  font-size: 34px;
+  margin-top: 50px;
+  font-family: 'LeksaPro';
+}
+
+div .name {
+  text-align: center;
+  font-size: 18px;
+  color:#b7b7b7;
+  display: block;
+  font-family: 'Circe-Regular';
+}
+
+.all {
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.circle .catalog  {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #b5b5b5;
+  padding-top: 100px;
+  font-family: 'Circe ExtraLight';
+}
+
+.accs {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Circe ExtraLight';
+}
+
+.circle .com  {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #9b9b9b;
+  font-family: 'Circe-Regular';
+}
+
+.blue {
+  background: url(img/back_3.jpg) no-repeat #fff;
+  background-size:cover;
+  padding-left: 111px;  
+}
+
+.blue h2 {
+  padding-top: 190px;
+  font-size: 65px;
+  text-align: left;
+}
+
+.blue p {
+  font-size: 17px;
+  text-align: left;
+  color: #fff;
+  width: 445px;
+  font-family: 'Circe-Regular';
+}
+
+.button_2 {
+  padding-top: 75px;
+}
+
+.blue .button_2 p {
+  color:black;
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+  width: 170px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.app {
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  padding-bottom: 235px;
+  text-transform: uppercase;
+}
+
+.beige {
+  background: url(img/girl.jpg) no-repeat #fff;
+  background-size:auto;  
+}
+
+.beige h2 {
+  padding-top: 130px;
+  font-size: 65px;
+  text-align: left;
+  margin-left: 1250px;
+  font-family: 'LeksaPro';
+  margin-bottom: 0px;
+}
+
+.beige h3 {
+  font-size: 65px;
+  text-align: left;
+  margin-left: 1250px;
+  color: #fff;
+  font-family: 'Circe ExtraLight';
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.beige p {
+  font-size: 17px;
+  text-align: left;
+  color: #fff;
+  width: 450px;
+  margin-left: 1250px;
+  line-height: 34px;
+  font-family: 'Circe-Regular';
+}
+
+.beige .button_2 {
+  padding-top: 0px;
+}
+
+.beige .button_2 p {
+  color:black;
+  text-align: center;
+  background-color: #fff;
+  display: inline-block;
+  width: 170px;
+  height: 44px;
+  font-size: 14px;
+  line-height: 44px;
+  text-transform: uppercase;
+}
