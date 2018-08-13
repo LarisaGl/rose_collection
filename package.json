@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server --hot --inline"
+    "dist": "webpack",
+    "dev": "webpack-dev-server --hot --open --inline"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
     "style-loader": "^0.22.0",
     "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   }
 }

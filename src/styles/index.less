@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: 'LeksaPro';
-  src: url('fonts/leksapro-lightitalic.ttf');
+  src: url('/fonts/leksapro-lightitalic.ttf');
 }
 
 @font-face {
   font-family: 'Circe ExtraLight';
-  src: url('fonts/CRC25.otf');
+  src: url('/fonts/CRC25.otf');
 }
 
 @font-face {
   font-family: 'Gotham Pro';
-  src: url('fonts/GothaProReg.otf');
+  src: url('/fonts/GothaProReg.otf');
 }
 
 @font-face {
   font-family: 'Circe-Regular';
-  src: url('fonts/10710.ttf');
+  src: url('/fonts/10710.ttf');
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-  background: url(img/banner.jpg) no-repeat #fff;
+  background: url('/img/banner.jpg') no-repeat #fff;
   background-size:cover;
   padding-bottom: 248px;
   padding-top: 300px;
@@ -103,15 +103,25 @@ h4 {
   margin-bottom: 0px;
 }
 
+.two {
+  padding-bottom: 50px;
+}
+
 .img {
   display:inline-block;
-   width: 66%;
-   margin-top: 50px;
+  width: 66%;
+  margin-top: 50px;
 }
 
 .top {
   padding-bottom: 75px;
   object-fit: cover;
+}
+
+.size .pos {
+  display: block;
+  margin-bottom: 350px;
+  margin-left: 0px;
 }
 
 p.dresses {
@@ -126,7 +136,6 @@ p.vintage {
   font-size: 65px;
   text-align: left;
   font-family: 'Circe ExtraLight';
-  margin-bottom: 400px;
 }
 
 .button .read {
@@ -140,13 +149,21 @@ p.vintage {
   text-transform: uppercase;
   display: inline;
   font-family: 'Circe-Regular';
+  position: relative;
+  bottom: 380px;
+  left: 200px;
+}
+
+.marg {
+  margin-top: 50px;
+  margin-bottom: 110px;
 }
 
 div .quote {
   text-align: center;
   font-size: 34px;
-  margin-top: 50px;
   font-family: 'LeksaPro';
+  display: block;
 }
 
 div .name {
@@ -161,15 +178,13 @@ div .name {
   font-size: 25px;
   display: block;
   text-align: center;
-  margin-bottom: 38px;
 }
 
-.circle .catalog  {
+div .catalog  {
   display: block;
   text-align: center;
   font-size: 14px;
   color: #b5b5b5;
-  padding-top: 100px;
   font-family: 'Circe ExtraLight';
 }
 
@@ -182,7 +197,7 @@ div .name {
   font-family: 'Circe ExtraLight';
 }
 
-.circle .com  {
+div .com  {
   display: block;
   text-align: center;
   font-size: 16px;
@@ -191,15 +206,16 @@ div .name {
 }
 
 .blue {
-  background: url(img/back_3.jpg) no-repeat #fff;
+  background: url('/img/back_3.jpg') no-repeat #fff;
   background-size:cover;
   padding-left: 111px;  
 }
 
 .blue h2 {
-  padding-top: 190px;
+  padding-top: 170px;
   font-size: 65px;
   text-align: left;
+  margin-bottom: 0px;
 }
 
 .blue p {
@@ -208,13 +224,16 @@ div .name {
   color: #fff;
   width: 445px;
   font-family: 'Circe-Regular';
+  line-height: 40px;
 }
 
 .button_2 {
-  padding-top: 75px;
+  padding-top: 35px;
+  display: inline-block;
+  padding-right: 20px;
 }
 
-.blue .button_2 p {
+.blue .button_2 a {
   color:black;
   text-align: center;
   background-color: #fff;
@@ -226,24 +245,32 @@ div .name {
   text-transform: uppercase;
 }
 
-.app {
+.blue .app {
   color: #fff;
   font-size: 14px;
   display: inline-block;
-  padding-bottom: 235px;
+  padding-bottom: 220px;
   text-transform: uppercase;
 }
 
+.novelty {
+  padding-top: 0px;
+}
+
+.fifth {
+  padding-bottom: 110px;
+}
+
 .beige {
-  background: url(img/girl.jpg) no-repeat #fff;
-  background-size:auto;  
+  background: url('/img/girl.jpg') no-repeat #fff;
+  background-size:auto;
 }
 
 .beige h2 {
   padding-top: 130px;
   font-size: 65px;
   text-align: left;
-  margin-left: 1250px;
+  margin-left: 1240px;
   font-family: 'LeksaPro';
   margin-bottom: 0px;
 }
@@ -251,11 +278,12 @@ div .name {
 .beige h3 {
   font-size: 65px;
   text-align: left;
-  margin-left: 1250px;
+  margin-left: 1240px;
   color: #fff;
   font-family: 'Circe ExtraLight';
   padding-top: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .beige p {
@@ -263,16 +291,17 @@ div .name {
   text-align: left;
   color: #fff;
   width: 450px;
-  margin-left: 1250px;
+  margin-left: 1240px;
   line-height: 34px;
   font-family: 'Circe-Regular';
+  margin-bottom: 50px;
 }
 
 .beige .button_2 {
   padding-top: 0px;
 }
 
-.beige .button_2 p {
+.beige .button_2 a {
   color:black;
   text-align: center;
   background-color: #fff;
@@ -282,4 +311,125 @@ div .name {
   font-size: 14px;
   line-height: 44px;
   text-transform: uppercase;
+  margin-left: 1240px;
+  font-family: 'Circe-Regular';
+}
+
+.beige .app {
+  margin: 0px;
+  display: inline-block;
+  margin-bottom: 250px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Circe ExtraLight';
+}
+
+.block {
+  margin-top: 110px;
+  margin-bottom: 120px;
+}
+
+.block .vanila {
+  font-family: 'Circe-Regular';
+  font-size: 39px;
+}
+
+.block .insta {
+  font-family: 'Circe ExtraLight';
+  font-size: 36px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.gray {
+  background-color: #2d2d2d;
+}
+
+.gray h3 {
+  color: white;
+  font-weight: 300;
+  padding-top: 40px;
+}
+
+.article {
+  align-items: baseline;
+  margin-top: 15px;
+  padding-bottom: 110px;
+}
+
+.article h4 {
+  text-align: left;
+  color: white;
+  font-family: 'Circe-Regular';
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.article p {
+  text-align: left;
+  color: #b7b7b7;
+  font-size: 15px;
+  font-family: 'Circe-Regular';
+}
+
+.one_flex {
+  flex:1;
+}
+
+.two_flex {
+  flex:2;
+}
+
+.map {
+  background: url('/img/map.jpg') no-repeat #fff;
+  background-size:cover;
+  padding: 150px 115px 188px 1240px;
+}
+
+.contact {
+  background-color: white;
+  width: 565px;
+  height: 395px;
+  display: block;
+}
+
+.contact h4 {
+  font-size: 40px;
+  font-family: 'Circe-Regular';
+  padding-top: 50px;
+  margin-left: 55px;
+}
+
+.contact table {
+  margin-left: 55px;
+  font-family: 'Circe ExtraLight';
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.contact td {
+  width: 414px;
+}
+
+.button_3 {
+  background-color: black;
+  width: 260px;
+  height: 45px;
+  text-align: center;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+.button_3 a {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Circe-Regular';
+  font-size: 14px;
+  line-height: 45px;
 }
